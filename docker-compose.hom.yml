@@ -1,0 +1,23 @@
+version: "3.4"
+
+services:
+  zanzar-message-api:
+    environment:
+      - NODE_ENV=homologa
+      - PORT=3002
+      - API_PREFIX=/api/v1
+      - CACHE_EXPIRE_IN=180
+      - DB_HOST=18.118.73.146
+      - DB_NAME=zanzar_hom
+      - DB_USER=zanzar_hom
+      - DB_PASS=Zanzar2020$awdl
+      - DB_PORT=5432
+      - APP_SECRET=o4Rlg4kxuDu5Gj3ta3DDd4fmvMG5d2tx_0Tfm7n_-bEbMVWUJUYmw1FTl8IP4lQN
+      - CACHE_EXPIRE_IN=3600 #Segundos
+      - CACHE_MOTORISTA_EXPIRE_IN=180 #Segundos
+      - CACHE_HISTORICO_EXPIRE_IN=180 #Segundos
+      - API_ZANZAR_BASE_URL=http://api-homologa.zanzar.com.br/api/v2
+      - BLIP_BASE_URL=https://zanzarmidia.http.msging.net
+      - BLIP_AUTH_TOKEN=emFuemFycm91dGVyOlg0djVzeTNweFFmVXVESERnbGky
+    ports:
+      - 3002:3002

@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "commonjs",
+    "allowJs": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "declaration": true,
+    "incremental": false,
+    "outDir": "build/",
+    "baseUrl": ".",
+    "rootDir": "src",
+    "lib": ["ES2019", "dom"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "useUnknownInCatchVariables": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "types": ["reflect-metadata"]
+  },
+  "include": [
+    "./src/**/*",
+    "./src/**/*.ts"
+  ],
+  "exclude": ["node_modules", "build", "prod", "gulpfile.js"]
+}

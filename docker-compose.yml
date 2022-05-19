@@ -1,0 +1,19 @@
+version: "3.4"
+
+services:
+  zanzar-message-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: zanzar-message-api
+    user: jenkins
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "20m"
+        max-file: "5"
+    restart: always
+    volumes:
+      - .:/app
+    ports:
+      - 3002:3002
