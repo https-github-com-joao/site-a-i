@@ -8761,3 +8761,15 @@
 2022-05-19T16:45:53.5353 [info] 	Booting 'HTTP' middleware 
 2022-05-19T16:45:53.5353 [info] 	Routes : Mounting API Routes 
 2022-05-19T16:45:53.5353 [info] 	Express server listening on port 3001 : development 
+2022-05-19T20:20:56.5656 [info] 	Configuration : loading 
+2022-05-19T20:20:56.5656 [info] 	Database : loading 
+2022-05-19T20:20:56.5656 [info] 	Server : loading 
+2022-05-19T20:20:56.5656 [info] 	Booting 'HTTP' middleware 
+2022-05-19T20:20:56.5656 [info] 	Routes : Mounting API Routes 
+2022-05-19T20:20:56.5656 [info] 	Express server listening on port 3000 : development 
+2022-05-19T20:21:52.5252 [info] 	Configuration : loading 
+2022-05-19T20:21:52.5252 [info] 	Database : loading 
+2022-05-19T20:21:52.5252 [info] 	Server : loading 
+2022-05-19T20:21:52.5252 [info] 	Booting 'HTTP' middleware 
+2022-05-19T20:21:52.5252 [info] 	Routes : Mounting API Routes 
+2022-05-19T20:21:52.5252 [info] 	Express server listening on port 3001 : development 

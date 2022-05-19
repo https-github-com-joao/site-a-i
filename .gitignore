@@ -1,0 +1,8 @@
+node_modules/
+dist/
+build/
+prod/
+__tests__/coverage
+log/
+*.log
+tsconfig.tsbuildinfo
