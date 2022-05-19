@@ -8773,3 +8773,4 @@
 2022-05-19T20:21:52.5252 [info] 	Booting 'HTTP' middleware 
 2022-05-19T20:21:52.5252 [info] 	Routes : Mounting API Routes 
 2022-05-19T20:21:52.5252 [info] 	Express server listening on port 3001 : development 
+2022-05-19T20:24:13.1313 [error] 	DELETE /api/v1/secao/undefined/6/3 : route not found : [IP: '::1'] 
