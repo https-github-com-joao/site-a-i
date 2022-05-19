@@ -8774,3 +8774,15 @@
 2022-05-19T20:21:52.5252 [info] 	Routes : Mounting API Routes 
 2022-05-19T20:21:52.5252 [info] 	Express server listening on port 3001 : development 
 2022-05-19T20:24:13.1313 [error] 	DELETE /api/v1/secao/undefined/6/3 : route not found : [IP: '::1'] 
+2022-05-19T20:28:46.4646 [info] 	Configuration : loading 
+2022-05-19T20:28:46.4646 [info] 	Database : loading 
+2022-05-19T20:28:46.4646 [info] 	Server : loading 
+2022-05-19T20:28:46.4646 [info] 	Booting 'HTTP' middleware 
+2022-05-19T20:28:46.4646 [info] 	Routes : Mounting API Routes 
+2022-05-19T20:28:46.4646 [info] 	Express server listening on port 3001 : development 
+2022-05-19T20:29:57.5757 [info] 	Configuration : loading 
+2022-05-19T20:29:57.5757 [info] 	Database : loading 
+2022-05-19T20:29:57.5757 [info] 	Server : loading 
+2022-05-19T20:29:57.5757 [info] 	Booting 'HTTP' middleware 
+2022-05-19T20:29:57.5757 [info] 	Routes : Mounting API Routes 
+2022-05-19T20:29:57.5757 [info] 	Express server listening on port 3001 : development 
