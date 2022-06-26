@@ -115,4 +115,22 @@ export class UsuarioRepository implements IUsuarioRepository {
       })
       .then((success: number) => success);
   }
+
+  public getByUsername(email: string): Promise<IUsuario> {
+    return connDB
+      .from(this.tableName)
+      .select()
+      .where({
+        email
+      })
+      .then((rows: any) => rows ? rows[0] : null)
+      .catch((err: any) => {
+        logger.error(err.message, err);
+
+        return Promise.reject({
+          ...err,
+          message: `Erro ao consultar ${this.tableName}`,
+        });
+      });
+  }
 }

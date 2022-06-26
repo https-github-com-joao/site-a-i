@@ -13,4 +13,5 @@ export interface IUsuarioRepository {
   inserir(entity: IUsuario): Promise<number>;
   alterar(id: number, entity: IUsuario): Promise<number>;
   excluir(id: number): Promise<number>;
+  getByUsername(email: string): Promise<IUsuario>
 }

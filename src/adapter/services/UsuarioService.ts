@@ -48,4 +48,8 @@ export class UsuarioService implements IUsuarioService {
   public excluir(id: number): Promise<number> {
     return this.usuarioRepository.excluir(id);
   }
+
+  public login(email: string): Promise<UsuarioDto>{
+    return this.usuarioRepository.getByUsername(email)
+  }
 }

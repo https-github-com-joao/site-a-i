@@ -8816,3 +8816,156 @@
 2022-05-22T16:14:34.3434 [info] 	Booting 'HTTP' middleware 
 2022-05-22T16:14:34.3434 [info] 	Routes : Mounting API Routes 
 2022-05-22T16:14:34.3434 [info] 	Express server listening on port 3001 : development 
+2022-05-22T19:15:53.5353 [info] 	Configuration : loading 
+2022-05-22T19:15:53.5353 [info] 	Database : loading 
+2022-05-22T19:15:53.5353 [info] 	Server : loading 
+2022-05-22T19:15:53.5353 [info] 	Booting 'HTTP' middleware 
+2022-05-22T19:15:53.5353 [info] 	Routes : Mounting API Routes 
+2022-05-22T19:15:53.5353 [info] 	Express server listening on port 3001 : development 
+2022-05-31T20:56:56.5656 [info] 	Configuration : loading 
+2022-05-31T20:56:56.5656 [info] 	Database : loading 
+2022-05-31T20:56:56.5656 [info] 	Server : loading 
+2022-05-31T20:56:56.5656 [info] 	Booting 'HTTP' middleware 
+2022-05-31T20:56:56.5656 [info] 	Routes : Mounting API Routes 
+2022-05-31T20:56:56.5656 [info] 	Express server listening on port 3001 : development 
+2022-05-31T21:04:27.2727 [info] 	Configuration : loading 
+2022-05-31T21:04:27.2727 [info] 	Database : loading 
+2022-05-31T21:04:27.2727 [info] 	Server : loading 
+2022-05-31T21:04:27.2727 [info] 	Booting 'HTTP' middleware 
+2022-05-31T21:04:27.2727 [info] 	Routes : Mounting API Routes 
+2022-05-31T21:04:27.2727 [info] 	Express server listening on port 3001 : development 
+2022-05-31T21:05:52.5252 [info] 	Configuration : loading 
+2022-05-31T21:05:52.5252 [info] 	Database : loading 
+2022-05-31T21:05:52.5252 [info] 	Server : loading 
+2022-05-31T21:05:52.5252 [info] 	Booting 'HTTP' middleware 
+2022-05-31T21:05:52.5252 [info] 	Routes : Mounting API Routes 
+2022-05-31T21:05:52.5252 [info] 	Express server listening on port 3001 : development 
+2022-05-31T21:16:32.3232 [info] 	Configuration : loading 
+2022-05-31T21:16:32.3232 [info] 	Database : loading 
+2022-05-31T21:16:32.3232 [info] 	Server : loading 
+2022-05-31T21:16:32.3232 [info] 	Booting 'HTTP' middleware 
+2022-05-31T21:16:32.3232 [info] 	Routes : Mounting API Routes 
+2022-05-31T21:16:32.3232 [info] 	Express server listening on port 3001 : development 
+2022-05-31T21:16:42.4242 [info] 	Configuration : loading 
+2022-05-31T21:16:42.4242 [info] 	Database : loading 
+2022-05-31T21:16:42.4242 [info] 	Server : loading 
+2022-05-31T21:16:42.4242 [info] 	Booting 'HTTP' middleware 
+2022-05-31T21:16:42.4242 [info] 	Routes : Mounting API Routes 
+2022-05-31T21:16:42.4242 [info] 	Express server listening on port 3001 : development 
+2022-05-31T21:24:54.5454 [info] 	Configuration : loading 
+2022-05-31T21:24:54.5454 [info] 	Database : loading 
+2022-05-31T21:24:54.5454 [info] 	Server : loading 
+2022-05-31T21:24:54.5454 [info] 	Booting 'HTTP' middleware 
+2022-05-31T21:24:54.5454 [info] 	Routes : Mounting API Routes 
+2022-05-31T21:24:54.5454 [info] 	Express server listening on port 3001 : development 
+2022-05-31T21:34:33.3333 [error] 	error: insert into "usuario" ("cpf", "created_at", "dt_nascimento", "email", "nome", "senha") values ($1, $2, $3, $4, $5, $6) - invalid input syntax for type date: ""
+    at Parser.parseErrorMessage (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:369:69)
+    at Parser.handlePacket (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:188:21)
+    at Parser.parse (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:103:30)
+    at Socket.<anonymous> (/home/joao/work/site-api-1/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
+2022-05-31T21:34:33.3333 [error] 	error: insert into "usuario" ("cpf", "created_at", "dt_nascimento", "email", "nome", "senha") values ($1, $2, $3, $4, $5, $6) - invalid input syntax for type date: ""
+    at Parser.parseErrorMessage (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:369:69)
+    at Parser.handlePacket (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:188:21)
+    at Parser.parse (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:103:30)
+    at Socket.<anonymous> (/home/joao/work/site-api-1/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
+2022-05-31T21:34:33.3333 [error] 	error: insert into "usuario" ("cpf", "created_at", "dt_nascimento", "email", "nome", "senha") values ($1, $2, $3, $4, $5, $6) - invalid input syntax for type date: ""
+    at Parser.parseErrorMessage (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:369:69)
+    at Parser.handlePacket (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:188:21)
+    at Parser.parse (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:103:30)
+    at Socket.<anonymous> (/home/joao/work/site-api-1/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
+2022-05-31T21:48:54.5454 [info] 	Configuration : loading 
+2022-05-31T21:48:54.5454 [info] 	Database : loading 
+2022-05-31T21:48:54.5454 [info] 	Server : loading 
+2022-05-31T21:48:54.5454 [info] 	Booting 'HTTP' middleware 
+2022-05-31T21:48:54.5454 [info] 	Routes : Mounting API Routes 
+2022-05-31T21:48:54.5454 [info] 	Express server listening on port 3001 : development 
+2022-06-03T13:28:25.2525 [info] 	Configuration : loading 
+2022-06-03T13:28:25.2525 [info] 	Database : loading 
+2022-06-03T13:28:25.2525 [info] 	Server : loading 
+2022-06-03T13:28:25.2525 [info] 	Booting 'HTTP' middleware 
+2022-06-03T13:28:25.2525 [info] 	Routes : Mounting API Routes 
+2022-06-03T13:28:25.2525 [info] 	Express server listening on port 3001 : development 
+2022-06-03T13:29:51.5151 [error] 	error: insert into "usuario" ("cpf", "created_at", "dt_nascimento", "email", "nome", "senha") values ($1, $2, $3, $4, $5, $6) - invalid input syntax for type date: ""
+    at Parser.parseErrorMessage (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:369:69)
+    at Parser.handlePacket (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:188:21)
+    at Parser.parse (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:103:30)
+    at Socket.<anonymous> (/home/joao/work/site-api-1/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
+2022-06-03T13:29:51.5151 [error] 	error: insert into "usuario" ("cpf", "created_at", "dt_nascimento", "email", "nome", "senha") values ($1, $2, $3, $4, $5, $6) - invalid input syntax for type date: ""
+    at Parser.parseErrorMessage (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:369:69)
+    at Parser.handlePacket (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:188:21)
+    at Parser.parse (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:103:30)
+    at Socket.<anonymous> (/home/joao/work/site-api-1/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
+2022-06-03T13:29:51.5151 [error] 	error: insert into "usuario" ("cpf", "created_at", "dt_nascimento", "email", "nome", "senha") values ($1, $2, $3, $4, $5, $6) - invalid input syntax for type date: ""
+    at Parser.parseErrorMessage (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:369:69)
+    at Parser.handlePacket (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:188:21)
+    at Parser.parse (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:103:30)
+    at Socket.<anonymous> (/home/joao/work/site-api-1/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
+2022-06-03T13:30:00.000 [error] 	error: insert into "usuario" ("cpf", "created_at", "dt_nascimento", "email", "nome", "senha") values ($1, $2, $3, $4, $5, $6) - invalid input syntax for type date: ""
+    at Parser.parseErrorMessage (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:369:69)
+    at Parser.handlePacket (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:188:21)
+    at Parser.parse (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:103:30)
+    at Socket.<anonymous> (/home/joao/work/site-api-1/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
+2022-06-03T13:30:00.000 [error] 	error: insert into "usuario" ("cpf", "created_at", "dt_nascimento", "email", "nome", "senha") values ($1, $2, $3, $4, $5, $6) - invalid input syntax for type date: ""
+    at Parser.parseErrorMessage (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:369:69)
+    at Parser.handlePacket (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:188:21)
+    at Parser.parse (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:103:30)
+    at Socket.<anonymous> (/home/joao/work/site-api-1/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
+2022-06-03T13:30:00.000 [error] 	error: insert into "usuario" ("cpf", "created_at", "dt_nascimento", "email", "nome", "senha") values ($1, $2, $3, $4, $5, $6) - invalid input syntax for type date: ""
+    at Parser.parseErrorMessage (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:369:69)
+    at Parser.handlePacket (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:188:21)
+    at Parser.parse (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:103:30)
+    at Socket.<anonymous> (/home/joao/work/site-api-1/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
