@@ -8969,3 +8969,105 @@
     at readableAddChunk (node:internal/streams/readable:289:9)
     at Socket.Readable.push (node:internal/streams/readable:228:10)
     at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
+2022-06-26T11:47:27.2727 [info] 	Configuration : loading 
+2022-06-26T11:47:27.2727 [info] 	Database : loading 
+2022-06-26T11:47:27.2727 [info] 	Server : loading 
+2022-06-26T11:47:27.2727 [info] 	Booting 'HTTP' middleware 
+2022-06-26T11:47:27.2727 [info] 	Routes : Mounting API Routes 
+2022-06-26T11:47:27.2727 [info] 	Express server listening on port 3001 : development 
+2022-06-26T11:47:35.3535 [info] 	Configuration : loading 
+2022-06-26T11:47:35.3535 [info] 	Database : loading 
+2022-06-26T11:47:35.3535 [info] 	Server : loading 
+2022-06-26T11:47:35.3535 [info] 	Booting 'HTTP' middleware 
+2022-06-26T11:47:35.3535 [info] 	Routes : Mounting API Routes 
+2022-06-26T11:47:35.3535 [info] 	Express server listening on port 3001 : development 
+2022-06-26T11:47:48.4848 [info] 	Configuration : loading 
+2022-06-26T11:47:48.4848 [info] 	Database : loading 
+2022-06-26T11:47:48.4848 [info] 	Server : loading 
+2022-06-26T11:47:48.4848 [info] 	Booting 'HTTP' middleware 
+2022-06-26T11:47:48.4848 [info] 	Routes : Mounting API Routes 
+2022-06-26T11:47:48.4848 [info] 	Express server listening on port 3001 : development 
+2022-06-26T11:49:25.2525 [info] 	Configuration : loading 
+2022-06-26T11:49:25.2525 [info] 	Database : loading 
+2022-06-26T11:49:25.2525 [info] 	Server : loading 
+2022-06-26T11:49:25.2525 [info] 	Booting 'HTTP' middleware 
+2022-06-26T11:49:25.2525 [info] 	Routes : Mounting API Routes 
+2022-06-26T11:49:25.2525 [info] 	Express server listening on port 3001 : development 
+2022-06-26T11:51:33.3333 [info] 	Configuration : loading 
+2022-06-26T11:51:33.3333 [info] 	Database : loading 
+2022-06-26T11:51:33.3333 [info] 	Server : loading 
+2022-06-26T11:51:33.3333 [info] 	Booting 'HTTP' middleware 
+2022-06-26T11:51:33.3333 [info] 	Routes : Mounting API Routes 
+2022-06-26T11:51:33.3333 [info] 	Express server listening on port 3001 : development 
+2022-06-26T16:20:18.1818 [info] 	Configuration : loading 
+2022-06-26T16:20:18.1818 [info] 	Database : loading 
+2022-06-26T16:20:18.1818 [info] 	Server : loading 
+2022-06-26T16:20:18.1818 [info] 	Booting 'HTTP' middleware 
+2022-06-26T16:20:18.1818 [info] 	Routes : Mounting API Routes 
+2022-06-26T16:20:18.1818 [info] 	Express server listening on port 3001 : development 
+2022-06-26T16:20:30.3030 [info] 	Configuration : loading 
+2022-06-26T16:20:30.3030 [info] 	Database : loading 
+2022-06-26T16:20:30.3030 [info] 	Server : loading 
+2022-06-26T16:22:35.3535 [info] 	Configuration : loading 
+2022-06-26T16:22:35.3535 [info] 	Database : loading 
+2022-06-26T16:22:35.3535 [info] 	Server : loading 
+2022-06-26T16:22:35.3535 [info] 	Booting 'HTTP' middleware 
+2022-06-26T16:22:35.3535 [info] 	Routes : Mounting API Routes 
+2022-06-26T16:22:35.3535 [info] 	Express server listening on port 3001 : development 
+2022-06-26T16:28:32.3232 [info] 	Configuration : loading 
+2022-06-26T16:28:32.3232 [info] 	Database : loading 
+2022-06-26T16:28:32.3232 [info] 	Server : loading 
+2022-06-26T16:28:32.3232 [info] 	Booting 'HTTP' middleware 
+2022-06-26T16:28:32.3232 [info] 	Routes : Mounting API Routes 
+2022-06-26T16:28:32.3232 [info] 	Express server listening on port 3001 : development 
+2022-06-26T18:13:05.055 [info] 	Configuration : loading 
+2022-06-26T18:13:05.055 [info] 	Database : loading 
+2022-06-26T18:13:05.055 [info] 	Server : loading 
+2022-06-26T18:13:05.055 [info] 	Booting 'HTTP' middleware 
+2022-06-26T18:13:05.055 [info] 	Routes : Mounting API Routes 
+2022-06-26T18:13:05.055 [info] 	Express server listening on port 3001 : development 
+2022-07-05T14:14:09.099 [info] 	Configuration : loading 
+2022-07-05T14:14:09.099 [info] 	Database : loading 
+2022-07-05T14:14:09.099 [info] 	Server : loading 
+2022-07-05T14:14:09.099 [info] 	Booting 'HTTP' middleware 
+2022-07-05T14:14:09.099 [info] 	Routes : Mounting API Routes 
+2022-07-05T14:14:09.099 [info] 	Express server listening on port 3001 : development 
+2022-07-05T14:14:11.1111 [error] 	error: insert into "usuario" ("cpf", "created_at", "dt_nascimento", "email", "nome", "senha") values ($1, $2, $3, $4, $5, $6) - invalid input syntax for type date: ""
+    at Parser.parseErrorMessage (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:369:69)
+    at Parser.handlePacket (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:188:21)
+    at Parser.parse (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:103:30)
+    at Socket.<anonymous> (/home/joao/work/site-api-1/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
+2022-07-05T14:14:11.1111 [error] 	error: insert into "usuario" ("cpf", "created_at", "dt_nascimento", "email", "nome", "senha") values ($1, $2, $3, $4, $5, $6) - invalid input syntax for type date: ""
+    at Parser.parseErrorMessage (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:369:69)
+    at Parser.handlePacket (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:188:21)
+    at Parser.parse (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:103:30)
+    at Socket.<anonymous> (/home/joao/work/site-api-1/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
+2022-07-05T14:14:11.1111 [error] 	error: insert into "usuario" ("cpf", "created_at", "dt_nascimento", "email", "nome", "senha") values ($1, $2, $3, $4, $5, $6) - invalid input syntax for type date: ""
+    at Parser.parseErrorMessage (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:369:69)
+    at Parser.handlePacket (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:188:21)
+    at Parser.parse (/home/joao/work/site-api-1/node_modules/pg-protocol/src/parser.ts:103:30)
+    at Socket.<anonymous> (/home/joao/work/site-api-1/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
+2022-07-05T14:26:52.5252 [info] 	Configuration : loading 
+2022-07-05T14:26:52.5252 [info] 	Database : loading 
+2022-07-05T14:26:52.5252 [info] 	Server : loading 
+2022-07-05T14:26:52.5252 [info] 	Booting 'HTTP' middleware 
+2022-07-05T14:26:52.5252 [info] 	Routes : Mounting API Routes 
+2022-07-05T14:26:53.5353 [info] 	Express server listening on port 3001 : development 

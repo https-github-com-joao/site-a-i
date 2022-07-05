@@ -19,6 +19,10 @@ import { IUsuarioRepository } from './repositories/IUsuarioRepository';
 import { UsuarioRepository } from '../infra/repositories/UsuarioRepository';
 import { IUsuarioService } from './services/IUsuarioService';
 import { UsuarioService } from '../adapter/services/UsuarioService';
+import { IPagamentoRepository } from './repositories/IPagamentoRepository';
+import { PagamentoRepository } from '../infra/repositories/PagamentoRepository';
+import { IPagamentoService } from './services/IPagamentoService';
+import { PagamentoService } from '../adapter/services/PagamentoService';
 
 export const initContainer = () => {
   const container = new Container();
@@ -33,6 +37,8 @@ export const initContainer = () => {
   container.bind<ISecaoService>(TYPES.ISecaoService).to(SecaoService).inRequestScope();
   container.bind<IUsuarioRepository>(TYPES.IUsuarioRepository).to(UsuarioRepository).inRequestScope();
   container.bind<IUsuarioService>(TYPES.IUsuarioService).to(UsuarioService).inRequestScope();
+  container.bind<IPagamentoRepository>(TYPES.IPagamentoRepository).to(PagamentoRepository).inRequestScope();
+  container.bind<IPagamentoService>(TYPES.IPagamentoService).to(PagamentoService).inRequestScope();
   
   return container;
 };

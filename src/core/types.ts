@@ -9,6 +9,8 @@ const TYPES = {
   ISecaoService: Symbol.for('ISecaoService'),
   IUsuarioRepository: Symbol.for('IUsuarioRepository'),
   IUsuarioService: Symbol.for('IUsuarioService'),
+  IPagamentoRepository: Symbol.for('IPagamentoRepository'),
+  IPagamentoService: Symbol.for('IPagamentoService'),
 };
 
 export default TYPES;
